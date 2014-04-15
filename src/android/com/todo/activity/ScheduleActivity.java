@@ -12,11 +12,13 @@ public class ScheduleActivity extends Activity {
 
     /**
      * Called when the activity is first created.
+     *
      * @param icicle
      */
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        this.setContentView(R.layout.main);
+        this.setContentView(R.layout.schedule);
     }
+
 }
