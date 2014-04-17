@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]>
+<!-->
+<html class="not-ie" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Todo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="日常事务记录工具">
+        <meta name="author" content="jingxin191314@foxmail.com">
+        <link rel="stylesheet" type="text/css" href="file:///android_asset/www/resources/css/bootstrap.v2.css">
+        <link rel="shortcut icon" href="file:///android_asset/www/resources/img/favicon.png">
+        <script type="text/javascript" src="file:///android_asset/www/resources/js/jquery.min.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/resources/js/bootstrap.v2.min.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/resources/js/template.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/shared/body_header.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/shared/body_container.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/shared/body_footer.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/shared/app.js"></script>
+    </head>
+    <body>
+        <div id="body_header">
+        </div>
+        <div id="body_container">
+        </div>
+        <div id="body_footer">
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+            getBodyHeader('body_header', 'home');
+            getBodyContainer("body_container", null);
+            getBodyFooter("body_footer");
+                $('#btn').click(function() {
+                    requestAjax(url);
+                });
+            });
+        </script>
+    </body>
+</html>

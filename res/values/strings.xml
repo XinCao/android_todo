@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Todo</string>
-    <string name="main_title">main_title</string>
-    <string name="main_content">main_content</string>
-    <string name="schedule_title">schedule_title</string>
-    <string name="schedule_content">schedule_content</string>
-    <string name="btn">submit</string>
 </resources>
