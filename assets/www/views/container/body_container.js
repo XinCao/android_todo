@@ -1,7 +1,8 @@
 /**
  * 这个内容，来自于用户，基础界面
  * 
- * @param id
+ * @param  id
+ * @param  data
  * @returns
  */
 function getBodyContainer(id, data) {

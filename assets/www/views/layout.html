@@ -23,9 +23,9 @@
         <script type="text/javascript" src="file:///android_asset/www/resources/js/bootstrap.v2.min.js"></script>
         <script type="text/javascript" src="file:///android_asset/www/resources/js/template.js"></script>
         <script type="text/javascript" src="file:///android_asset/www/views/shared/body_header.js"></script>
-        <script type="text/javascript" src="file:///android_asset/www/views/shared/body_container.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/container/body_container.js"></script>
         <script type="text/javascript" src="file:///android_asset/www/views/shared/body_footer.js"></script>
-        <script type="text/javascript" src="file:///android_asset/www/views/shared/app.js"></script>
+        <script type="text/javascript" src="file:///android_asset/www/views/container/app.js"></script>
     </head>
     <body>
         <div id="body_header">
@@ -36,9 +36,9 @@
         </div>
         <script type="text/javascript">
             $(document).ready(function() {
-            getBodyHeader('body_header', 'home');
-            getBodyContainer("body_container", null);
-            getBodyFooter("body_footer");
+                getBodyHeader('body_header', 'home');
+                getBodyContainer("body_container", null);
+                getBodyFooter("body_footer");
                 $('#btn').click(function() {
                     requestAjax(url);
                 });
