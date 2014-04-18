@@ -60,15 +60,12 @@
     </head>
     <body>
         <div class="container">
-            <form class="form-signin" action="http://127.0.0.1/app/user/login_check" method="POST">
-                <h2 class="form-signin-heading">Please sign in</h2>
+            <form class="form-signin" action="http://127.0.0.1/app/user/register" method="POST">
+                <h2 class="form-signin-heading">Please Register</h2>
                 <input id="email" name="email" type="text" class="input-block-level" placeholder="Email address">
                 <input id="password" name="password" type="password" class="input-block-level" placeholder="Password">
-                <label class="checkbox">
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
-                <button class="button button-rounded button-action" type="submit">Sign in</button>
-                <a href="file:///android_asset/www/views/register.html" class="button button-rounded button-highlight">Register</a>
+                <input id="again_gpassword" name="again_password" type="password" class="input-block-level" placeholder="Again Password">
+                <button class="button button-rounded button-highlight" type="submit">Register</button>
             </form>
         </div>
     </body>
